@@ -47,7 +47,7 @@ public class TokenAuthFilter implements Filter {
                 req.setAttribute("Claim.Sid",userId.toString() );
                 req.setAttribute("Claim.Name", user.getName() );
                 req.setAttribute("Claim.Avatar", user.getAvatar() );
-                req.setAttribute("Claim.Role", userRole.getName() );
+//                req.setAttribute("Claim.Role", userRole.getName() );
             }else {
                 req.setAttribute("Claim.TmpId", token );
             }

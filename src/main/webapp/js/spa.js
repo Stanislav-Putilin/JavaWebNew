@@ -5,7 +5,7 @@
 }
 
 const env = {
-    apiHost: "http://localhost:8080/JavaWebPv221_war_exploded",
+    apiHost: "http://localhost:8080/JavaWeb",
 };
 
 const StateContext = React.createContext(null);

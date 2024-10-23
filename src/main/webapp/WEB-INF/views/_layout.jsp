@@ -22,9 +22,9 @@
 
   <header>
       <nav>
-          <div class="nav-wrapper purple">
+          <div class="nav-wrapper green">
               <a href="<%=contextPath%>/" class="site-logo left ">
-              <img src="<%=contextPath%>/img/Java_Logo.jpeg" class="logo-img" alt="logo" />
+              <img src="<%=contextPath%>/img/watermark.png" class="logo-img" alt="logo" />
                   PV-221</a>
               <ul id="nav-mobile" class="left">
                   <li><a href="<%=contextPath%>/index">Index</a></li>
@@ -54,7 +54,7 @@
 
   <main class="container"><jsp:include page='<%=pageName +".jsp"%>' /></main>
     <div class="spacer"></div>
-  <footer class="page-footer purple">
+  <footer class="page-footer green">
       <div class="container">
           <div class="row">
               <div class="col l6 s12">
