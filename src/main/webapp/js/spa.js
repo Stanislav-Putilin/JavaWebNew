@@ -394,6 +394,7 @@ function Category({id}) {
                 </div>)}
             <br/>
 
+            {state.auth.role.name === "admin" &&
                 <form id="add-product-form" onSubmit={addProduct} encType="multipart/form-data">
                     <hr/>
                     <input name="product-name" placeholder="Назва"/>
@@ -404,6 +405,7 @@ function Category({id}) {
                     <input type="hidden" name="product-category-id" value={id} />
                     <button type="submit">Додати</button>
                 </form>
+            }
         </div>}
         {!products && <div>
             <h2>Группа товаров не существует</h2>
